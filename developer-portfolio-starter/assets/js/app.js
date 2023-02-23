@@ -76,6 +76,14 @@ const mostrarCertificados =()=>{
     certificado1.src = "responsivo.jpg";
     certificado = "certificado11";
   }
+  else if(certificado == "certificado11"){
+    certificado1.src = "arquitectura.jpg";
+    certificado = "certificado12";
+  }
+  else if(certificado == "certificado12"){
+    certificado1.src = "manipulacion_del_dom.jpg";
+    certificado = "certificado13";
+  }
   else{
     certificado1.src = "certSoftSkills.jpg";
     certificado = "certificado1";
